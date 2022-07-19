@@ -5,6 +5,10 @@ By - Yeskendir Koishekeno, Baradwaj Varadharajan and Sameer Ambekar
 We built upon the paper [Meta-learning for fast cross-lingual adaptation in dependency parsing](https://arxiv.org/abs/2104.04736) and [On Negative Interference in Multilingual Models:
 Findings and A Meta-Learning Treatment]() along the codebase of Udify. 
 
+# Abstract 
+
+The recent success of NLP can largely be ascribed to the development of large-scale pretraining methods that utilize the vast amount of training data. Therefore, only high-resource languages are beneficiaries of these large models. One way to solve it is to train multilingual models that can leverage information from high-resource languages to improve performance in low-resource languages. Modern effective and resource-lean cross-lingual adaptation algorithms are based on meta-learning. However, combining different languages can degrade performance in high-resource languages, a phenomenon known as negative interference. In this work, we do a systematic study of negative interference in the meta-learning framework on the task of dependency parsing. We investigate the effect of negative interference on language transfer in multilingual models and its relationship with language similarity.
+
 # Environment Setup
 Ideally setup a conda environment and install all the requirements. jobfiles folder consist of all the required .sh files to run on Lisa. 
 Use lisaatcs.job to setup your environment.
