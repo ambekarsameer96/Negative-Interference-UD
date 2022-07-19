@@ -1,5 +1,6 @@
-# Measuring Negative Interference in Cross-Lingual Adaptation in Dependency Parsing
-This repo is the project to measure negative interference in a multilingual meta-learning setup for the task of dependency parsing. 
+# Negative Interference in Cross-Lingual Adaptation in Dependency Parsing
+This repo is the project to measure negative interference in a multilingual meta-learning setup for the task of dependency parsing.
+By - Yeskendir Koishekeno, Baradwaj Varadharajan and Sameer Ambekar
 
 We built upon the paper [Meta-learning for fast cross-lingual adaptation in dependency parsing](https://arxiv.org/abs/2104.04736) and [On Negative Interference in Multilingual Models:
 Findings and A Meta-Learning Treatment]() along the codebase of Udify. 
@@ -27,7 +28,7 @@ Run a script that copies treebanks of all languages used in her paper (based on 
 python scripts/make_expmix_folder.py
 ```
 
-Afterward, you can just pass the name of the folder with all these treebanks to concatenate them. `concat_treebanks.py` needs imports Udify's `util.py` which imports stuff like torch, so we need to run `concat_treebanks.py` in a batch script. For that, you can use `concat_treebanks.sh`. Run it from the root directory of metalearning with the command:
+Afterwards, you can just pass the name of the folder with all these treebanks to concatenate them. `concat_treebanks.py` needs imports Udify's `util.py` which imports stuff like torch, so we need to run `concat_treebanks.py` in a batch script. For that, you can use `concat_treebanks.sh`. Run it from the root directory of metalearning with the command:
 
 ```
 sbatch concat_treebanks.sh
