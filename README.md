@@ -1,6 +1,6 @@
-# Negative Interference in Cross-Lingual Adaptation in Dependency Parsing
+# Negative Interference in Cross-Lingual Adaptation in Dependency Parsing (ATCS Course, UvA 2022)
 This repo is the project to measure negative interference in a multilingual meta-learning setup for the task of dependency parsing.
-By - Yeskendir Koishekeno, Baradwaj Varadharajan and Sameer Ambekar
+By - Yeskendir Koishekeno, Baradwaj Varadharajan and Sameer Ambekar. This project was done during the course "Advanced Topics in Computational Semantics" taught by Prof. Ekaterina Shutova, University of Amsterdam. 
 
 We built upon the paper [Meta-learning for fast cross-lingual adaptation in dependency parsing](https://arxiv.org/abs/2104.04736) and [On Negative Interference in Multilingual Models:
 Findings and A Meta-Learning Treatment]() along the codebase of Udify. 
